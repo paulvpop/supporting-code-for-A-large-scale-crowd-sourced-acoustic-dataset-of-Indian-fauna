@@ -8,7 +8,8 @@
 ###### Getting started #####
 ----------------------------
   
-# Set the working directory
+# Set the working directory (If you have your files in different folder, set the directory to a higher level and then use relative paths to
+# where the files are located, when loading those files to the R environment)
 
 setwd("~/Bioacoustics dataset paper/figures")
 
@@ -921,6 +922,7 @@ ecoregions_with_data_b <- ecoregions %>%
 
 # As Indian Ocean is missing here, we would need the boundary for it.
 # Load the shapefile available from here: https://doi.org/10.5281/zenodo.10778079
+# (Worldwide Geographic Division: Continents and Oceans/Seas Shapefile by Guilherme Mataveli)
 world <- st_read("World_Geographic_Regions/World_Geographic_Regionst.shp")
 # Reading layer `World_Geographic_Regionst' from data source 
 #   `/home/Bioacoustics dataset paper/figures/World_Geographic_Regions/World_Geographic_Regionst.shp' 
