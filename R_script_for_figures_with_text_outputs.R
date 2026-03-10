@@ -8,7 +8,7 @@
 ###### Getting started #####
 ----------------------------
   
-# Set the working directory (If you have your files in different folder, set the directory to a higher level and then use relative paths to
+# Set the working directory to where all the files are stored (If you have your files in different folder, set the directory to a higher level and then use relative paths to
 # where the files are located, when loading those files to the R environment)
 
 setwd("~/Bioacoustics dataset paper/figures")
