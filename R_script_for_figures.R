@@ -18,7 +18,6 @@ library(sf)
 # Load in a shapefile with all the state and union territory boundaries whose 
 # geometry issues have been already fixed
 
-TO BE UPLOADED
 shapefile <- st_read("./shapefile_fixed/shapefile_valid.shp")   
 # Reading layer `shapefile_valid' from data source 
 #   `home/Bioacoustics dataset paper/figures/shapefile_fixed/shapefile_valid.shp' 
