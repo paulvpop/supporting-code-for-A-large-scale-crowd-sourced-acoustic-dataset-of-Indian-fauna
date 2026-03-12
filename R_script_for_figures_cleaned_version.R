@@ -32,7 +32,7 @@ library(dplyr)
 ----------------------
   
 # Read in the type A metadata csv:
-type_a <- read.csv("typea_meta.csv")
+type_a <- read.csv("type_A_metadata.csv")
 # Check the structure
 str(type_a)
 
@@ -161,8 +161,8 @@ write.dbf(result_complete_a, "type_a.dbf")
 #### Data preparation for Type B ####
 --------------------
 
-# Load the Type B data
-type_b <- read.csv("typeb_meta.csv") 
+# Load the Type B metadata
+type_b <- read.csv("type_B_metadata.csv") 
 
 # Check structure
 str(type_b)
