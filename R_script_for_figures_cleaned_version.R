@@ -32,7 +32,7 @@ library(dplyr)
 ----------------------
   
 # Read in the type A metadata csv:
-type_a <- read.csv("typea_meta_mar5.csv")
+type_a <- read.csv("typea_meta.csv")
 # Check the structure
 str(type_a)
 
@@ -162,7 +162,7 @@ write.dbf(result_complete_a, "type_a.dbf")
 --------------------
 
 # Load the Type B data
-type_b <- read.csv("typeb_meta_mar5.csv") 
+type_b <- read.csv("typeb_meta.csv") 
 
 # Check structure
 str(type_b)
@@ -1046,7 +1046,7 @@ ggsave("ecoregions_plot.png", ecoregions_plot, width = 17, height = 13, dpi = 30
 # Read in the annotation data for type A
 # install.packages(data.table)
 library(data.table)
-anno_type_a <- as.data.frame(fread("anno_mar5.csv"))
+anno_type_a <- as.data.frame(fread("anno.csv"))
 
 # See the structure
 str(anno_type_a)
