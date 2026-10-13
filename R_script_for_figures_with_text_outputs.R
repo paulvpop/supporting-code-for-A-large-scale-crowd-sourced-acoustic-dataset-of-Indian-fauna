@@ -1370,7 +1370,7 @@ ggsave("ecoregions_plot.png", ecoregions_plot, width = 17, height = 13, dpi = 30
 # Read in the annotation data for type A
 # install.packages(data.table)
 library(data.table)
-anno_type_a <- as.data.frame(fread("anno_mar5.csv"))
+anno_type_a <- as.data.frame(fread("type_A_annotations.csv"))
 
 # See the structure
 str(anno_type_a)
